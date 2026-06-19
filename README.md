@@ -1,4 +1,4 @@
-# 🐳 Docker Mastery
+# 🐳 Docker 
 
 A complete Docker learning repository covering Docker fundamentals, architecture, images, containers, networking, volumes, Docker Compose, security, interview preparation, and real-world projects.
 
@@ -113,37 +113,26 @@ Docker is an open-source containerization platform that enables developers to pa
 * Multi-Container Applications
 * Real-World Docker Projects
 
----
-
-## 🏗 Docker Architecture
+## 🐳 Docker Architecture Flow
 
 ```text
-+-------------+
-| Docker CLI  |
-+-------------+
-       |
-       v
-+-------------+
-| Docker      |
-| Daemon      |
-+-------------+
-       |
-       v
-+-------------+
-| Containers  |
-| Images      |
-| Networks    |
-| Volumes     |
-+-------------+
-       |
-       v
-+-------------+
-| Docker Hub  |
-| Registry    |
-+-------------+
+Developer
+    │
+    ▼
+Docker CLI
+    │
+    ▼
+Docker Engine (Daemon)
+    │
+    ├── Images
+    ├── Containers
+    ├── Networks
+    └── Volumes
+    │
+    ▼
+Docker Registry
+(Docker Hub / Private Registry)
 ```
-
----
 
 ## 📂 Repository Structure
 
